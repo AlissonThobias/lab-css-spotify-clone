@@ -1,0 +1,48 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+#logo{
+    width: 300px;
+}
+
+ul{
+    display: flex;
+    
+    
+}
+
+li{
+    list-style-type: none;
+    color: black;
+}
+
+#landing{
+    background-color: black;
+    background-image: url(images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    height: 1000px;
+    color: white;
+}
+
