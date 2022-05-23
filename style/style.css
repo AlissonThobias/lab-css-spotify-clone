@@ -16,7 +16,7 @@ White: #FFF
 
 #landing{
     background-color: black;
-    background-image: url(images/landing.jpg);
+    background-image: url(../images/landing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
