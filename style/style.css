@@ -77,13 +77,16 @@ a{
     max-width: 559px;
 }
 
+#conteiner_mid{
+    margin-bottom: 100px;
+}
 
 #middle{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-evenly;
-    margin-bottom: 70px;
+    margin-top: 50px;
 }
 
 #middle h1{
@@ -123,7 +126,14 @@ a{
     background-color: var(--green);
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     padding: 90px
+    
+}
+
+#conteiner img{
+    width: 350px;
+    padding-top: 30px;
 }
 
 #final{
@@ -134,10 +144,17 @@ a{
     
 }
 
-#spotify_icon{
-   
+#final h1{
+    font-size: 2.4em;
+    border-bottom: 2px solid white
 }
 
-#spotify_icon img{
-    max-width: 250px;
+#final h2{
+    font-size: 1.8em;
+    padding-top: 50px;
+}
+
+#final p{
+    font-size: 1.3em;
+    padding-top: 35px;
 }
