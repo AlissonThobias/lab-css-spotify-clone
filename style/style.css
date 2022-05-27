@@ -46,12 +46,12 @@ ul{
     flex-wrap: wrap;
     align-content: center;
     padding-right: 50px;
+    gap: 30px;
 }
 
 li{
     list-style-type: none;
     color: black;
-    margin: 15px;
 }
 
 a{
